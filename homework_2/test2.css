@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    background-color: #ccc;
+}
+
+
+.title {
+    color: blue;
+    text-align: center;
+}
+
+.header {
+width: 100%;
+text-align: center;
+background-color: #999797;
+} 
+
+.container {
+    margin: 0 auto;
+    width: 1200px;
+
+}
+
+.nav {
+    margin-top: 50px;
+}
+
+
+.nav-link {
+    width: 100px;
+    height: 40px;
+    color: #fff;
+    background-color: darkmagenta;
+    display: block;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 1px solid transparent;
+
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link:hover {
+    background-color: #fff;
+    border: 1px solid darkmagenta;
+    color: darkmagenta;
+}
+
+.item-sec {
+    margin-top: 100px;
+}
+
+.item {
+    background-color: #fff;
+    display: block;
+    width: 263px;
+    margin-bottom: 30px;
+    text-decoration: none;
+
+}
+
+.item-pic {
+    width: 100%;
+}
+
+.txt-box {
+    padding: 10px;
+}
+
+.txt-desc {
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+   
+
+}
+
+.item-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.item:hover .txt-box{
+    background-color: darkmagenta;
+
+}
+
+.item:hover .txt-desc {
+    color: #fff;
+}
+/* Second page test3.html */
+.item-card{
+    margin-top: 50px;
+}
+.item-card-wrapper{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    width: 800px;
+}
+.item-card__text{
+    margin: 10px;
+}
+.item-card__text h2{
+    margin-bottom: 20px;
+}
+.item-card__text p{
+    margin-bottom: 10px;
+}
+.item-card__button{
+    margin-top: 20px;
+    border: none;
+    background-color: crimson;
+    color:#fff;
+    padding: 15px;
+    text-transform: uppercase;
+    font-size: 18px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.item-card__button:hover{
+    background-color: rgb(155, 14, 42);
+}
